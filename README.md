@@ -12,7 +12,7 @@
 
 可以根据学校类别，对各级学校分别进行查看：
 
-![university](/Users/zhouyuqi/Documents/MyGithub/location-map-of-schools-in-Beijing/images/university.png)
+![university](images/university.png)
 
 ## 文件简介
 
