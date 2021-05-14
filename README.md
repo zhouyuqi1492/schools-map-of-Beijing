@@ -1,22 +1,20 @@
-# 基于Pycharm的北京各级学校位置地图
+# Pycharm-based location map of schools in Beijing
 
-## 项目简介
+## Project Overview
 
-从北京市人民政府网站爬取到北京各个学校的基本信息，并对其进行格式化处理：
+The project obtained the public basic information of various schools in Beijing from the website of the Beijing Municipal People's Government, formatted it and stored it in the MySQL database. Part of the data is shown in the figure below, including school's location, area, number of students and teachers, etc.
 
 ![schools](images/schools.png)
 
-之后根据学校信息的经纬度，利用python绘制图表的pyecharts在北京地图上标注出北京各个学校的所在位置：
-
+According to the latitude and longitude of each school, pyecharts, which uses python to draw a chart, marks the location of each school in Beijing on the map of Beijing:
 ![homepage](images/homepage.png)
 
-可以根据学校类别，对各级学校分别进行查看：
-
+According to the school category, the schools can be viewed separately:
 ![university](images/university.png)
 
-## 文件简介
+## Files Introduction
 
-* educationalResourceMap.sql：存储了各学校的基本信息，需要自行导入MySQL数据库中。
-* demo_pyecharts.py：使用pyecharts绘制了北京市各级学校的分布地图。
-* beijingDemo.html：生成的地图
+* educationalResourceMap.sql: The basic information of each school is stored and needs to be imported into the MySQL database.
+* demo_pyecharts.py: Use pyecharts to draw a distribution map of all levels of schools in Beijing.
+* beijingDemo.html: Generated map.
 
